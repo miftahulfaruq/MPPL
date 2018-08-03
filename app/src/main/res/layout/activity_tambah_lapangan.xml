@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@mipmap/back_ground"
+    tools:context=".TambahLapanganActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Silhakan isi data" />
+
+    <EditText
+        android:id="@+id/lapangan_nama"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/name"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/input_login_hint"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/lapangan_alamat"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/input_login_hint"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Alamat" />
+
+    <EditText
+        android:id="@+id/lapangan_cost"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/input_login_hint"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Harga" />
+
+    <EditText
+        android:id="@+id/lapangan_telp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/input_login_hint"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="No. HP" />
+
+    <Button
+        android:id="@+id/bt_gambar"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Pilih Gambar" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="218dp"
+        android:text="@string/send"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

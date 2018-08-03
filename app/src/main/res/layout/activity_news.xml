@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back_ground"
+    tools:context="com.example.faruq.BiangFutsalApp.NewsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/tv_cari"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Cari Lapangan....."
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/white"
+            android:textColorHint="@color/input_login_hint" />
+
+        <ImageView
+            android:id="@+id/iv_cari"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/tv_cari"
+            android:src="@drawable/ic_search_black_24dp" />
+
+        <ImageView
+            android:id="@+id/iv_setting"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_settings_black_24dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/myRecycleView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="37dp"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="12dp"
+        app:srcCompat="@drawable/ic_add_black_24dp" />
+
+</RelativeLayout>

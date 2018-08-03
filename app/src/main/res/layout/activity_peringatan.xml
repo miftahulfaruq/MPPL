@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back_ground"
+    tools:context=".AccountActivity.Peringatan">
+
+    <TextView
+        android:id="@+id/tv_peringatan"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Apakah anda Pemilik atau Pengelolah Tempat Rental Lapangan Futsal??"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/bt_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/bt_pengelolah"
+        android:layout_marginStart="70dp"
+        android:background="@color/colorAccent"
+        android:text="Bukan"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/bt_pengelolah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="185dp"
+        android:layout_marginEnd="70dp"
+        android:background="@color/colorAccent"
+        android:text="Iya"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+</RelativeLayout>

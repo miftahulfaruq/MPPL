@@ -1,0 +1,41 @@
+<resources>
+    <string name="title_activity_news_web_view">NewsWebView</string>
+    <string name="app_name">Biang Futsal</string>
+    <string name="name">Nama Lapangan</string>
+    <string name="class_">Alamat Lapangan</string>
+    <string name="send">Send Data</string>
+
+    <string name="action_sign_in_short">Daftar</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password terlalu pendek, masukkan minimal 6 karakter!</string>
+    <string name="auth_failed">Otentikasi gagal, periksa email dan kata sandi anda atau Daftar</string>
+    <string name="change_email">Ganti Email</string>
+    <string name="change_password">Ganti Password</string>
+    <string name="send_password_reset_email">Kirim email untuk mengatur ulang kata sandi</string>
+    <string name="remove_user">Hapus user</string>
+    <string name="new_pass">Password Baru</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Masuk</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Nama Lengkap</string>
+    <string name="btn_login">MASUK</string>
+    <string name="prompt_password">Silakan masukkan kata sandi Anda</string>
+    <string name="btn_link_to_register">Belum punya Akun? Daftarkan Akun Anda sekarang!</string>
+    <string name="btn_link_to_login">Sudah Daftar? Masuk disini!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Anda lupa kata sandi?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Kembali]]></string>
+    <string name="hint_new_email">Email Baru</string>
+    <string name="btn_change">GANTI</string>
+    <string name="btn_send">KIRIM</string>
+    <string name="btn_remove">HAPUS</string>
+    <string name="btn_sign_out">KELUAR</string>
+    <string name="lbl_forgot_password">lupa kata sandi?</string>
+    <string name="forgot_password_msg">Kami sangat membutuhkan Email Anda yang terdaftar untuk mengirimkan konfirmasi pengaturan ulang kata sandi.</string>
+    <string name="email_id">Email ID</string>
+
+    <string name="lapangan_nama">Nama Lapangan</string>
+    <string name="lapangan_alamat">Alamat Lapangan</string>
+</resources>
